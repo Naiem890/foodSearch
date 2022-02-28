@@ -37,90 +37,22 @@
     </div>
 
     <div class="container mt-5">
-      <div id="food-container" class="row row-cols-4 g-4"></div>
+      <div
+        id="food-container"
+        class="row row-cols-md-4 row-cols-sm-2 row-cols-1 g-4"
+      ></div>
     </div>
 
     <section id="modal-container" class="container">
-      <button
+      <!-- <button
         type="button"
         class="btn btn-primary"
         data-bs-toggle="modal"
         data-bs-target="#foodDetails"
       >
         Launch demo modal
-      </button>
+      </button> -->
       <!-- Modal -->
-      <div
-        class="modal"
-        id="foodDetails"
-        tabindex="-1"
-        aria-labelledby="foodModal"
-        aria-hidden="true"
-      >
-        <div
-          class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable"
-        >
-          <div class="modal-content">
-            <div class="modal-header text-center">
-              <h3 class="modal-title" id="foodModal">How to make</h3>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-              <iframe
-                class="container-fluid"
-                height="400"
-                src="https://www.youtube.com/embed/fTuVWwTQegQ"
-                title="YouTube video player"
-                frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowfullscreen
-              ></iframe>
-              <div class="row row-col mt-3 mx-0 g-4">
-                <div class="col col-4">
-                  <div class="">
-                    <h5>Ingradients</h5>
-                    <p id="ingredients"></p>
-                  </div>
-                </div>
-                <div class="col col-8">
-                  <div class="ms-auto">
-                    <h5>Instrction</h5>
-
-                    <p class="text-secondary">
-                      Preheat oven to 350° F. Spray a 9x13-inch baking pan with
-                      non-stick spray.\r\nCombine soy sauce, ½ cup water, brown
-                      sugar, ginger and garlic in a small saucepan and cover.
-                      Bring to a boil over medium heat. Remove lid and cook for
-                      one minute once boiling.\r\nMeanwhile, stir together the
-                      corn starch and 2 tablespoons of water in a separate dish
-                      until smooth. Once sauce is boiling, add mixture to the
-                      saucepan and stir to combine. Cook until the sauce starts
-                      to thicken then remove from heat.\r\nPlace the chicken
-                      breasts in the prepared pan. Pour one cup of the sauce
-                      over top of chicken. Place chicken in oven and bake 35
-                      minutes or until cooked through. Remove from oven and
-                      shred chicken in the dish using two forks.\r\n*Meanwhile,
-                      steam or cook the vegetables according to package
-                      directions.\r\nAdd the cooked vegetables and rice to the
-                      casserole dish with the chicken. Add most of the remaining
-                      sauce, reserving a bit to drizzle over the top when
-                      serving. Gently toss everything together in the casserole
-                      dish until combined. Return to oven and cook 15 minutes.
-                      Remove from oven and let stand 5 minutes before serving.
-                      Drizzle each serving with remaining sauce. Enjoy!
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
 
     <!-- Bootstrap JS -->
